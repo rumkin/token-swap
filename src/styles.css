@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+#app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+/* @media (max-width: 720px) {
+  .container {
+    margin: 20px;
+  }
+} */
+
+.container {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+@media (min-width: 1081px) {
+  .container {
+    margin: 0 auto;
+    width: 1080px;
+  }
+}
+
+.app-main {
+  background-color: #fff;
+}
+
+.topBox {
+  padding: 24px;
+}
+
+dt {
+  font-weight: bold;
+}

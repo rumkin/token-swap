@@ -1,0 +1,27 @@
+{
+  "name": "token-swap-app",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "antd": "3.13.6",
+    "clipboard-copy": "3.0.0",
+    "history": "4.7.2",
+    "moment": "2.24.0",
+    "path-to-regexp": "latest",
+    "react": "16.8.3",
+    "react-dom": "16.8.3",
+    "react-scripts": "2.0.3",
+    "toposort": "2.0.2",
+    "web3-eth-abi": "1.0.0-beta.47"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+}
